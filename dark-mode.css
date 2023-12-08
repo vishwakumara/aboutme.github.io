@@ -1,0 +1,223 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body {
+    background: linear-gradient(to bottom, rgb(15, 15, 15), #000); 
+    /* Dark blue to black gradient */
+    color: #fff; /* Font color for the entire body */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+}
+
+p{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+p:hover{
+    color: rgb(117, 120, 117);
+}
+
+
+
+h1 {
+    color: rgb(138, 141, 143); /* Initial text color */
+    filter: brightness(1); /* Initial brightness level */
+    transition: color 0.00001s, filter 0.00001s; /* Transition properties for color and brightness */
+}
+
+h1:hover {
+    color: rgb(45, 46, 45); /* Change the text color to light blue on hover */
+    /* Increase brightness (adjust the value as needed) */
+}
+
+h2 {
+    color: rgb(77, 74, 74); /* Initial text color */
+     /* Initial brightness level */
+    transition: color 0.00001s, filter 0.00001s; /* Transition properties for color and brightness */
+}
+
+h2:hover {
+    color: rgb(66, 67, 68); /* Change the text color to light blue on hover */
+    filter: brightness(1.5); /* Increase brightness (adjust the value as needed) */
+}
+
+
+
+.myp{
+    padding: auto;
+    margin: 20px;
+    padding-right: 6px;
+    position: relative;
+    font-size: 20px;
+    
+}
+
+/* Set a dark blue to black gradient background */
+
+
+.main{
+    margin-top: 50px;
+}
+
+/* Style the header (navigation bar) */
+header {
+    background-color: solid lightblue; /* Dark blue background color */
+    color: lightblue; /* Font color for the navigation bar */
+    padding: 2px 0;
+    text-align: center; 
+    
+ 
+    
+}
+
+nav{
+    padding: 20px 20px;
+    background: linear-gradient(to bottom, #3a3838,  rgb(8, 8, 8));
+    padding-bottom: 60px;
+    text-align: center;
+    border: 2px lightgray; 
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline;
+    margin: 0px;
+    padding: 0;
+    text-align: center;
+  
+
+}
+
+nav ul li {
+    display:inline;
+    margin-right: 0;
+    
+}
+nav ul li a {
+    color: rgb(154, 155, 155); /* Change "red" to the desired color */
+    text-decoration: none;
+     text-align: center;
+     display: inline;
+     margin-right: 20px;  
+}
+
+  nav ul li a:hover {
+    color: rgb(62, 62, 62); /* Change "blue" to the desired hover color */
+    text-align: center;  
+}
+
+ 
+
+/* Style the main content */
+main {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Centered profile picture with icons */
+.profile-container {
+   
+   
+   margin: auto;
+}
+
+.profile-container img {
+    border-radius: 50%;
+    width: 370px;
+    height: 380px;
+    border: 5px solid rgb(107, 112, 113);
+    transition: transform 2.3s ease-in-out;
+    transition: border-color 1.3s;    
+}
+
+.profile-container img:hover {
+    transform: scale(1.1);
+    border-color: rgb(60, 62, 60);
+}
+
+/* Style the social media icons */
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.icon {
+    display: inline-block;
+    margin: 0 15px;
+    transition: transform 0.1s ease-in-out;
+    transform: scale(1.8);
+    color: #616769; /* Light blue font color for icons */
+    text-decoration: none; /* Remove default underline on links */
+}
+
+.icon:hover {
+    transform: scale(3.2);
+    color: rgb(164, 176, 164);
+}
+.skill:hover {
+    transform: scale(1.2);
+    color: rgb(164, 176, 164);
+}
+
+/* Style the footer */
+footer {
+    
+    text-align: center;
+    background-color:solid rgb(57, 57, 59); /* Matched with the dark blue in the gradient */
+    padding:  10px;
+    color: #ffaa00;
+    border: 3px solid rgb(72, 74, 75); 
+    margin-bottom: 7px;
+    margin-left: 5px;
+    margin-right: 5px;  
+}
+
+
+/* Style the contact info in the footer */
+.contact-info {
+    color: rgb(131, 135, 136);
+}
+.web{
+    color: rgb(255, 253, 253);
+    text-decoration: 1px #00bfff;
+}
+.web:hover{
+    
+        transform: scale(3.2);
+        color: rgb(104, 102, 102);
+}
+
+
+.modeicon {
+    border: none;        /* Remove border */
+    background: none;    /* Remove background color */
+    padding: 0;          /* Remove padding */
+    margin: 0;           /* Remove margin */
+    font-size: 24px;     /* Set the font size to adjust the icon size */
+    cursor: pointer;
+}
+
+.modeicon-dark {
+    color: lightgreen; /* Light green icon color for dark mode button */
+}
+
+.modeicon-light {
+    color: #00bfff; /* Light blue icon color for light mode button */
+}
+.hh{
+    text-align:left;
+}
+
+
+
